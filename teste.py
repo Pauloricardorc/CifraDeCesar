@@ -29,4 +29,5 @@ print('______________________________________________________')
 if (pergunta1 == 1):
     codificar(frase)
 elif(pergunta1 == 2):
- Chave('>') # casas a ser puladas no alfabeto
+    descodificar(frase)
+input('>')
