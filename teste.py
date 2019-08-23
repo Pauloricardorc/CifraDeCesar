@@ -1,3 +1,6 @@
+#fUNCIONANDO
+
+
 alfabeto = 'abcdefghijklmnopqrstuvwxyz' #alfabeto completo atualizado
 quantos = None # tanto de casas a ser pulados no alfabeto
 
