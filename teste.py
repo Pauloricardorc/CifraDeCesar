@@ -1,5 +1,5 @@
-#fUNCIONANDO
-
+#Falta de Altenticação
+#Pedir Uma Propria ChavedeAcesso
 
 alfabeto = 'abcdefghijklmnopqrstuvwxyz' #alfabeto completo atualizado
 quantos = None # tanto de casas a ser pulados no alfabeto
