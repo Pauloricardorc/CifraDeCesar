@@ -7,8 +7,8 @@ quantos = None # tanto de casas a ser pulados no alfabeto
 def codificar(frase):
     m = ''
     for c in frase:
-        if c in alfabeto:
-            c = alfabeto.index(c) # pesquisando qual a posição da letra no alfabeto
+        if c.lower() in alfabeto:
+            c = alfabeto.index(c.lower()) # pesquisando qual a posição da letra no alfabeto
             m += alfabeto[(c + quantos) % len(alfabeto)] # ('fazer o alfabeto ficar em um loop para quando chega no 'z' ele voltar para o 'a')
         else:
             m += c #adicionar um espaço caso a letra da palavra digitada não esteja no alfabeto
